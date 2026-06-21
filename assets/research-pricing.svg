@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Pricing and weather research visualization</title>
+  <desc id="desc">A layered abstract chart with water, weather, and demand signals.</desc>
+  <rect width="900" height="1125" fill="#edf5f2"/>
+  <path d="M0 805 C155 755 251 840 390 790 C557 730 650 664 900 730 L900 1125 L0 1125 Z" fill="#0a7f78" opacity=".82"/>
+  <path d="M0 894 C168 835 294 928 462 861 C625 796 721 783 900 835 L900 1125 L0 1125 Z" fill="#075e59" opacity=".92"/>
+  <circle cx="672" cy="220" r="112" fill="#f3c26d"/>
+  <g fill="none" stroke="#172126" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 635 C250 498 326 560 424 432 C515 313 616 342 746 258" stroke-width="15"/>
+    <path d="M155 706 C262 644 345 688 455 606 C562 526 637 552 761 492" stroke-width="9" opacity=".56"/>
+    <path d="M147 552 L745 552" stroke-width="6" opacity=".2"/>
+    <path d="M147 462 L745 462" stroke-width="6" opacity=".2"/>
+    <path d="M147 372 L745 372" stroke-width="6" opacity=".2"/>
+  </g>
+  <g fill="#ffffff" stroke="#172126" stroke-width="10">
+    <circle cx="151" cy="634" r="24"/>
+    <circle cx="322" cy="527" r="24"/>
+    <circle cx="469" cy="379" r="24"/>
+    <circle cx="615" cy="335" r="24"/>
+    <circle cx="746" cy="258" r="24"/>
+  </g>
+  <g fill="#b54f32" opacity=".9">
+    <rect x="150" y="192" width="54" height="210" rx="8"/>
+    <rect x="235" y="270" width="54" height="132" rx="8"/>
+    <rect x="320" y="230" width="54" height="172" rx="8"/>
+  </g>
+  <g fill="#172126" opacity=".78">
+    <rect x="575" y="810" width="18" height="155" rx="9"/>
+    <rect x="638" y="768" width="18" height="198" rx="9"/>
+    <rect x="701" y="834" width="18" height="132" rx="9"/>
+    <rect x="764" y="720" width="18" height="246" rx="9"/>
+  </g>
+</svg>
