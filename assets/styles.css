@@ -225,6 +225,7 @@ h2 {
 
 h3 {
   margin: 0 0 10px;
+  color: var(--heading);
   font-size: 1.08rem;
   line-height: 1.25;
 }
@@ -289,6 +290,67 @@ p {
   border-radius: 8px;
   box-shadow: var(--shadow);
   filter: var(--hero-filter);
+}
+
+.academic-timeline-section {
+  border-top: 1px solid var(--line);
+}
+
+.academic-timeline-section .section-heading {
+  justify-content: flex-start;
+}
+
+.academic-timeline {
+  position: relative;
+  display: grid;
+  gap: 0;
+  max-width: 880px;
+  padding-left: 28px;
+}
+
+.academic-timeline::before {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 6px;
+  width: 1px;
+  background: var(--line);
+  content: "";
+}
+
+.academic-timeline-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(170px, 0.38fr) minmax(0, 1fr);
+  gap: 22px;
+  padding: 0 0 28px;
+}
+
+.academic-timeline-entry:last-child {
+  padding-bottom: 0;
+}
+
+.academic-timeline-entry::before {
+  position: absolute;
+  top: 6px;
+  left: -27px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  background: var(--paper);
+  content: "";
+}
+
+.timeline-period {
+  margin: 0;
+  color: var(--heading);
+  font-size: 0.9rem;
+  font-weight: 720;
+}
+
+.academic-timeline-entry p:not(.timeline-period) {
+  margin: 0;
 }
 
 .connect-section {
@@ -487,6 +549,11 @@ footer {
 
   .section-heading {
     display: block;
+  }
+
+  .academic-timeline-entry {
+    grid-template-columns: 1fr;
+    gap: 5px;
   }
 
   .connect-details,

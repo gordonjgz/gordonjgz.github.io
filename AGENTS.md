@@ -15,7 +15,7 @@ This repository contains the GitHub Pages version of Gordon Ji's personal websit
     - **Backgrounds & Navigation:** Use a clean white (`#FFFFFF`) or off-white background. Do not use solid color blocks for the top header navigation.
     - **Headings & Titles:** Rely on a deep, sophisticated Slate Blue/Navy (e.g., `#1C3B5A`) strictly for the main Name title and section headings.
     - **Body Typography:** Use a dark charcoal/near-black (e.g., `#333333`) for all body paragraphs to ensure a traditional academic reading experience.
-    - **Accents:** Restrict the use of refined metallic Gold (e.g., `#D4AF37`) strictly to interactive elements (buttons, link text, hover states) and small overline tags. Do not use gold for full sentences or subheadings.
+    - **Accents:** Restrict the use of a Warm Terracotta/Rust (e.g., `#A85A32`) strictly to interactive elements (buttons, link text, hover states) and small overline tags. Do not use this accent for full sentences or subheadings.
 - **Dark Mode Constraints:** The night mode must not mirror the firm's corporate dark theme. Implement a distinct, neutral dark theme (using deep charcoal or near-black backgrounds like `#121212` or `#1E1E1E`) with crisp, soft off-white text. The aesthetic should echo a clean, high-contrast IDE environment used for statistical programming in Python or R, completely separating your personal academic site from the firm's primary identity.
 
 
