@@ -158,6 +158,8 @@ nav a[aria-current="page"] {
 main {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 section {
@@ -171,6 +173,7 @@ section {
   align-items: center;
   min-height: calc(100vh - 74px);
   padding-top: 34px;
+  order: 0;
 }
 
 .hero-copy {
@@ -293,6 +296,7 @@ p {
 }
 
 .academic-timeline-section {
+  order: 2;
   border-top: 1px solid var(--line);
 }
 
@@ -353,11 +357,30 @@ p {
   margin: 0;
 }
 
+.timeline-organization {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.organization-logo {
+  display: block;
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  object-fit: contain;
+}
+
 .timeline-detail-list {
   margin-top: 16px;
 }
 
 .connect-section {
+  order: 1;
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
   gap: 32px;
@@ -448,6 +471,10 @@ p {
   margin-bottom: 24px;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--line);
+}
+
+main > section:not(.hero):not(.connect-section):not(.academic-timeline-section) {
+  order: 3;
 }
 
 .paper,
@@ -546,6 +573,16 @@ footer {
   .academic-timeline-entry {
     grid-template-columns: 1fr;
     gap: 5px;
+  }
+
+  .timeline-organization {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .organization-logo {
+    width: 36px;
+    height: 36px;
   }
 
   .connect-details {
