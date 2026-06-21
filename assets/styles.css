@@ -187,8 +187,8 @@ section {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-  gap: clamp(32px, 6vw, 76px);
+  grid-template-columns: minmax(210px, 300px) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 64px);
   align-items: center;
   min-height: calc(100vh - 74px);
   padding-top: 34px;
@@ -278,15 +278,19 @@ p {
   color: #ffffff;
 }
 
-.hero-visual {
+.hero-portrait {
   margin: 0;
+  justify-self: start;
+  width: min(100%, 300px);
 }
 
-.hero-visual img {
+.hero-portrait img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: auto;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
+  object-position: 50% 38%;
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -409,8 +413,9 @@ footer {
     min-height: 0;
   }
 
-  .hero-visual {
-    margin-top: 32px;
+  .hero-portrait {
+    margin-bottom: 28px;
+    width: min(100%, 260px);
   }
 
   .section-heading {
