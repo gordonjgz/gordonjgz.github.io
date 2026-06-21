@@ -1,10 +1,9 @@
 (function () {
   var root = document.documentElement;
   var toggle = document.querySelector(".theme-toggle");
-  var media = window.matchMedia("(prefers-color-scheme: dark)");
 
   function activeTheme() {
-    return root.dataset.theme || "dark";
+    return root.dataset.theme || "light";
   }
 
   function syncButton() {
@@ -24,7 +23,5 @@
       syncButton();
     });
   }
-
-  media.addEventListener("change", syncButton);
   syncButton();
 }());
