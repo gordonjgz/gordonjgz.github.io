@@ -4,7 +4,7 @@
   var media = window.matchMedia("(prefers-color-scheme: dark)");
 
   function activeTheme() {
-    return root.dataset.theme || (media.matches ? "dark" : "light");
+    return root.dataset.theme || "dark";
   }
 
   function syncButton() {

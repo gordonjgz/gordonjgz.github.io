@@ -9,9 +9,7 @@
     <script>
       (function () {
         var savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "light" || savedTheme === "dark") {
-          document.documentElement.dataset.theme = savedTheme;
-        }
+        document.documentElement.dataset.theme = savedTheme === "light" || savedTheme === "dark" ? savedTheme : "dark";
       }());
     </script>
     <link rel="stylesheet" href="assets/styles.css">

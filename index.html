@@ -9,9 +9,7 @@
     <script>
       (function () {
         var savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "light" || savedTheme === "dark") {
-          document.documentElement.dataset.theme = savedTheme;
-        }
+        document.documentElement.dataset.theme = savedTheme === "light" || savedTheme === "dark" ? savedTheme : "dark";
       }());
     </script>
     <link rel="stylesheet" href="assets/styles.css">
@@ -38,17 +36,17 @@
           <img src="assets/gordon-ji-profile.jpg" alt="Portrait of Guozhen (Gordon) Ji" width="600" height="900">
         </figure>
         <div class="hero-copy">
-          <p class="eyebrow">Empirical IO economist</p>
+          <p class="eyebrow">Empirical industrial organization economist</p>
           <h1>Guozhen (Gordon) Ji</h1>
           <p class="lead">
-            I am an empirical IO economist and an incoming Associate at Econic Partners.
+            I am an empirical industrial organization economist and incoming Associate at Econic Partners.
           </p>
           <p>
-            My research sits at the intersection of structural economics and public policy,
-            with a specific focus on optimal pricing in the environmental and transportation
-            sectors. I specialize in applying structural IO methods, causal inference, and
-            machine learning techniques to massive datasets to solve complex liability,
-            pricing, and antitrust problems.
+            My research examines the intersection of structural economics and public policy,
+            with particular attention to optimal pricing in environmental and transportation
+            markets. I apply structural industrial organization methods, causal inference, and
+            machine learning to large-scale data in the study of liability, pricing, and
+            antitrust questions.
           </p>
           <p>
             I am a Ph.D. candidate in Economics from the University of Texas at Austin and
@@ -65,9 +63,8 @@
         <div>
           <h2>About</h2>
           <p>
-            Outside of economics, I am a big fan of the live EDM scene, deep strategy games
-            like Balatro, and exploring the local food scene, as long as there are no pickles
-            involved.
+            Outside of research, I enjoy live electronic music, strategy games, and exploring
+            local restaurants.
           </p>
         </div>
         <div class="contact-panel">
