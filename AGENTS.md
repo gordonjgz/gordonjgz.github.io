@@ -11,11 +11,11 @@ This repository contains the GitHub Pages version of Gordon Ji's personal websit
 
 - **Tone and Language:** Ensure all written content maintains a rigorous, academic tone appropriate for professional economic research.
 - **Typography:** Implement a clean, modern academic pairing using **Lora** for page/section titles and **Inter** for the body text. Adjust heading styles to reduce the font size of all titles, ensuring the visual hierarchy remains compact, clean, and well-proportioned.
-- **Color Palette:** Use a professional color scheme that is clearly aligned with Econic Partners but distinct.
-    - **Dominant Colors:** Rely on deep, sophisticated Slate Blue/Navy (e.g., `#1C3B5A`) for backgrounds/headers.
-    - **Accent Colors:** Use a refined metallic Gold (e.g., `#D4AF37`) for links and calls-to-action.
-    - **Neutrals:** Maintain bright white or light grey for body text and contrast.
-    - **Constraint:** Avoid using the specific deep teal/green and muted tan hues identical to https://econicpartners.com/ to establish a personal brand distinct from the firm’s main identity.
+- **Color Strategy (Day Mode):** Use a professional color scheme that aligns with Econic Partners' sophisticated feel but remains uniquely distinct. Avoid the firm's specific deep teal/green and muted tan hues.
+    - **Backgrounds & Navigation:** Use a clean white (`#FFFFFF`) or off-white background. Do not use solid color blocks for the top header navigation.
+    - **Headings & Titles:** Rely on a deep, sophisticated Slate Blue/Navy (e.g., `#1C3B5A`) strictly for the main Name title and section headings.
+    - **Body Typography:** Use a dark charcoal/near-black (e.g., `#333333`) for all body paragraphs to ensure a traditional academic reading experience.
+    - **Accents:** Restrict the use of refined metallic Gold (e.g., `#D4AF37`) strictly to interactive elements (buttons, link text, hover states) and small overline tags. Do not use gold for full sentences or subheadings.
 - **Dark Mode Constraints:** The night mode must not mirror the firm's corporate dark theme. Implement a distinct, neutral dark theme (using deep charcoal or near-black backgrounds like `#121212` or `#1E1E1E`) with crisp, soft off-white text. The aesthetic should echo a clean, high-contrast IDE environment used for statistical programming in Python or R, completely separating your personal academic site from the firm's primary identity.
 
 
