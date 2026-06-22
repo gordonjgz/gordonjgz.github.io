@@ -15,9 +15,14 @@ This repository contains the GitHub Pages version of Gordon Ji's personal websit
     - **Backgrounds & Navigation:** Use a clean white (`#FFFFFF`) or off-white background. Do not use solid color blocks for the top header navigation.
     - **Headings & Titles:** Rely on a deep, sophisticated Slate Blue/Navy (e.g., `#1C3B5A`) strictly for the main Name title and section headings.
     - **Body Typography:** Use a dark charcoal/near-black (e.g., `#333333`) for all body paragraphs to ensure a traditional academic reading experience.
-    - **Accents:** Restrict the use of a Warm Terracotta/Rust (e.g., `#A85A32`) strictly to interactive elements (buttons, link text, hover states) and small overline tags. Do not use this accent for full sentences or subheadings.
+    - **Accents:** Restrict the use of a muted Bamboo/Sage Green (e.g., `#6B8E73` or `#82937A`) strictly to interactive elements (buttons, link text, hover states) and small overline tags to maintain a minimalist aesthetic. Do not use this accent for full sentences or subheadings.
 - **Dark Mode Constraints:** The night mode must not mirror the firm's corporate dark theme. Implement a distinct, neutral dark theme (using deep charcoal or near-black backgrounds like `#121212` or `#1E1E1E`) with crisp, soft off-white text. The aesthetic should echo a clean, high-contrast IDE environment used for statistical programming in Python or R, completely separating your personal academic site from the firm's primary identity.
 
+## Responsiveness & Theme Behavior
+
+- **Automatic Theme Switching:** Dark mode implementation must be automatic, utilizing CSS system preferences (e.g., `@media (prefers-color-scheme: dark)`) so the site adapts instantly to the user's device settings.
+- **Theme Verification:** Before finalizing any UI updates, the agent must explicitly check both the light and dark themes to ensure color contrast, readability, and the absence of corporate branding bleed-over in both modes.
+- **Mobile Scalability:** The layout must be fully responsive. Ensure all containers, typography, and images scale dynamically so the site loads properly and maintains visual hierarchy on mobile phones and smaller screens.
 
 ## Publishing Workflow
 
