@@ -310,9 +310,9 @@ p {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 1516 / 1232;
   object-fit: cover;
-  object-position: 50% 38%;
+  object-position: 50% 42%;
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
