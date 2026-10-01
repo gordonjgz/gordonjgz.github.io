@@ -544,6 +544,13 @@ li + li {
   margin-bottom: 8px;
 }
 
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  justify-content: flex-end;
+}
+
 .quotes {
   margin-bottom: 18px;
 }
