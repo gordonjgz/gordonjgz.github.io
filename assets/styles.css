@@ -555,6 +555,10 @@ li + li {
   flex: 0 0 auto;
 }
 
+.casework-link {
+  margin: 18px 0 0;
+}
+
 .paper-meta {
   display: flex;
   align-items: center;
