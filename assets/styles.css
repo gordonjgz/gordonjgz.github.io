@@ -280,6 +280,14 @@ p {
   margin-top: 26px;
 }
 
+.site-disclaimer {
+  margin: 24px 0 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
 .button,
 .link-row a {
   display: inline-flex;
@@ -382,21 +390,7 @@ p {
 }
 
 .timeline-organization {
-  display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  gap: 14px;
-  align-items: start;
-}
-
-.organization-logo {
-  display: block;
-  width: 42px;
-  height: 42px;
-  padding: 5px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: var(--panel);
-  object-fit: contain;
+  min-width: 0;
 }
 
 .timeline-detail-list {
@@ -439,8 +433,7 @@ p {
   color: var(--heading);
 }
 
-.contact-icon svg,
-.social-icon {
+.contact-icon svg {
   width: 20px;
   height: 20px;
 }
@@ -536,8 +529,10 @@ li + li {
   margin-top: 18px;
 }
 
-.casework-section h2 {
+.detail-page .section-heading h2 {
   color: var(--muted);
+  margin-left: auto;
+  text-align: right;
 }
 
 .casework-firm {
@@ -549,10 +544,6 @@ li + li {
 
 .casework-firm .date {
   margin: 0;
-}
-
-.casework-firm .organization-logo {
-  flex: 0 0 auto;
 }
 
 .casework-link {
@@ -629,14 +620,12 @@ footer {
     gap: 5px;
   }
 
-  .timeline-organization {
-    grid-template-columns: 36px minmax(0, 1fr);
-    gap: 12px;
+  .paper-meta {
+    flex-wrap: wrap;
   }
 
-  .organization-logo {
-    width: 36px;
-    height: 36px;
+  .paper-links {
+    margin-left: auto;
   }
 
   .connect-details {
