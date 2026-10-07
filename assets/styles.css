@@ -536,6 +536,25 @@ li + li {
   margin-top: 18px;
 }
 
+.casework-section h2 {
+  color: var(--muted);
+}
+
+.casework-firm {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.casework-firm .date {
+  margin: 0;
+}
+
+.casework-firm .organization-logo {
+  flex: 0 0 auto;
+}
+
 .paper-meta {
   display: flex;
   align-items: center;
